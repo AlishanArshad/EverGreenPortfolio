@@ -4,10 +4,10 @@
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
+"scripts": {
+  "start": "parcel src/index.html",
+  "build": "parcel build src/index.html --public-url ./"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobiwave/simplefolio"
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "https://alishanarshad.github.io/EverGreenPortfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
